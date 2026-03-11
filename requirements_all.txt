@@ -1,0 +1,17 @@
+# 完整依赖列表（包含所有支持的 LLM 类型）
+
+# 基础依赖（必须）
+streamlit>=1.28.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+nbformat>=5.9.2
+Pillow>=10.0.0
+
+# OpenAI / Azure / 自定义
+langchain-openai>=0.0.5
+
+# Jupyter 内核
+jupyter_client>=8.0.0
+
+# 可选：其他 LLM 依赖
+# 注释掉不需要的依赖以减小安装包大小
