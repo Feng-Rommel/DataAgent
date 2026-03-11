@@ -26,6 +26,9 @@ conda activate cellagent
 
 # 启动分析系统
 python main.py
+
+# 使用ui界面
+streamlit ./ui_app.py
 ```
 
 ### 2. 创建规划（复杂任务）
@@ -40,7 +43,7 @@ python main.py
 
 ### 4. 运行代码
 ```
-[回车]
+ok
 ```
 
 ### 5. 提问
@@ -60,7 +63,7 @@ python main.py
 | `修改这一步，把参数改为0.5` | 修改当前 Cell |
 | `修复这个错误` | 修复当前 Cell |
 | `解释一下第5步` | 咨询顾问 |
-| `[回车]` | 运行代码 |
+| `ok` | 运行代码 |
 | `q` / `exit` | 退出 |
 
 ## 📚 文档
@@ -91,7 +94,7 @@ python main.py
 用户: 按计划进行
 系统: [执行任务 1，生成代码]
 
-用户: [回车运行代码]
+用户: ok
 
 用户: 这个质控结果怎么样？
 系统: [顾问解释结果并提供建议]
@@ -363,3 +366,4 @@ python test_knowledge_retrieval.py
 如果这个项目对你有帮助，请给一个 Star ⭐️
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/data-analysis-agent&type=Date)](https://star-history.com/#yourusername/data-analysis-agent&Date)
+
